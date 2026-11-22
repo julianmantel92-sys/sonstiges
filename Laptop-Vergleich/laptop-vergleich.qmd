@@ -276,7 +276,7 @@ Gesucht wird ein **zukunftssicheres, zuverlässiges Notebook für das Arbeiten z
 ::: {.callout-tip}
 ## Klarer Testsieger (Faktencheck-geprüft): Lenovo IdeaPad Slim 3 (15ARP10) – Cyberport (5/5)
 
-Das **einzige Gerät im Vergleich**, das alle Anforderungen ohne Kompromisse erfüllt: schneller 8-Kern-Prozessor ([AMD Ryzen 7 170]{.law-tooltip data-text="8 Kerne / 16 Threads bis 4,75 GHz (Zen 3+ / Rembrandt-Refresh, technisch baugleich zum bewährten Ryzen 7 7735HS) inkl. starker Radeon 680M Grafik."}), **16 GB DDR5-RAM**, 512 GB NVMe-SSD, **Windows 11 Home**, ein angenehmes [15,3-Zoll-16:10-IPS-Display]{.law-tooltip data-text="WUXGA (1920 × 1200 Pixel, matt): Bietet rund 11 % mehr vertikale Höhe als klassisches 16:9 Full-HD – ideal für Word-Dokumente, Tabellen und parallele Fenster."} sowie moderne Anschlüsse (Wi-Fi 7, USB-C mit PowerDelivery & DisplayPort, HDMI, SD-Kartenleser, Webcam-Abdeckung) – direkt vom Fachhändler **Cyberport** (ca. **599 €**).
+Das **einzige Gerät im Vergleich**, das alle Anforderungen ohne Kompromisse erfüllt: schneller 8-Kern-Prozessor ([AMD Ryzen 7 170]{.law-tooltip data-text="8 Kerne / 16 Threads bis 4,75 GHz (Zen 3+ / Rembrandt-Refresh, technisch baugleich zum bewährten Ryzen 7 7735HS) inkl. starker Radeon 680M Grafik."}), **16 GB DDR5-RAM**, 512 GB NVMe-SSD, **Windows 11 Home**, ein angenehmes [15,3-Zoll-16:10-IPS-Display]{.law-tooltip data-text="WUXGA (1920 × 1200 Pixel, matt): Bietet rund 11 % mehr vertikale Höhe als klassisches 16:9 Full-HD – ideal für Word-Dokumente, Tabellen und parallele Fenster."} sowie moderne Anschlüsse (Wi-Fi 7, USB-C mit PowerDelivery & DisplayPort, HDMI, SD-Kartenleser, Webcam-Abdeckung) – direkt vom Fachhändler **Cyberport** (ca. **599 €**). *Hinweis (EU-Regelung 2026):* Wie beim Amazon-Schwestermodell (Nr. 8) ist **kein USB-C-Netzteil im Lieferumfang** – ggf. ein 65-W-USB-C-Netzteil (ca. 20–30 €) mitbestellen.
 
 <a class="shop-btn winner-btn" href="https://www.cyberport.de/notebook-und-tablet/notebooks/lenovo/pdp/1c31-483/lenovo-ideapad-slim-3-15arp10-15-3-zoll-laptop-amd-ryzen-7-170-16-gb-ram-512-gb-ssd-windows-11-home-cosmic-blue.html" target="_blank" rel="noopener noreferrer">Direkt zum Cyberport-Angebot →</a>
 :::
@@ -304,10 +304,10 @@ Alle acht Angebote wurden gegen Herstellerdatenblätter und Händlerangaben gepr
           <a class="shop-btn winner-btn" href="https://www.cyberport.de/notebook-und-tablet/notebooks/lenovo/pdp/1c31-483/lenovo-ideapad-slim-3-15arp10-15-3-zoll-laptop-amd-ryzen-7-170-16-gb-ram-512-gb-ssd-windows-11-home-cosmic-blue.html" target="_blank" rel="noopener noreferrer">Zu Cyberport →</a>
         </td>
         <td><strong>AMD Ryzen 7 170</strong><br><span style="color:#065f46; font-size:0.84rem;">8 Kerne / 16 Threads, bis 4,75 GHz (sehr schnell)</span></td>
-        <td><strong>16 GB DDR5</strong> (verlötet), 512 GB NVMe SSD, 15,3" WUXGA IPS (1920×1200, 16:10, matt), Wi-Fi 7, <strong>Win 11 Home</strong></td>
+        <td><strong>16 GB DDR5</strong> (verlötet), 512 GB NVMe SSD, 15,3" WUXGA IPS (1920×1200, 16:10, matt), Wi-Fi 7, <strong>Win 11 Home</strong>, ⚠️ ohne Netzteil</td>
         <td>
           <span class="rating-badge rating-5">★ 5/5 – Klarer Testsieger</span><br>
-          Erfüllt alle Anforderungen optimal: sehr flotte 8-Kern-CPU, 16 GB RAM, 16:10-IPS-Display (mehr Zeilen in Dokumenten) &amp; seriöser Direktkauf. <em>Hinweis:</em> RAM nicht aufrüstbar, Tastatur meist unbeleuchtet.
+          Erfüllt alle Anforderungen optimal: sehr flotte 8-Kern-CPU, 16 GB RAM, 16:10-IPS-Display (mehr Zeilen in Dokumenten) &amp; seriöser Direktkauf. <em>Hinweis:</em> RAM verlötet, Tastatur meist unbeleuchtet, <strong>ohne USB-C-Netzteil</strong>.
         </td>
       </tr>
       <tr>
@@ -426,7 +426,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
       <li><strong>Prozessor:</strong> AMD Ryzen 7 170 (8 Kerne / 16 Threads, bis 4,75 GHz)</li>
       <li><strong>RAM &amp; SSD:</strong> 16 GB DDR5-4800 (fest verlötet), 512 GB NVMe SSD</li>
       <li><strong>Display:</strong> 15,3" WUXGA IPS (1920×1200, 16:10, matt)</li>
-      <li><strong>System &amp; Extras:</strong> Windows 11 Home, Wi-Fi 7, USB-C (PD/DP), HDMI, SD-Slot, Webcam-Shutter, ca. 1,6 kg</li>
+      <li><strong>System &amp; Extras:</strong> Windows 11 Home, Wi-Fi 7, USB-C (PD/DP), HDMI, SD-Slot, Webcam-Shutter, ca. 1,6 kg · <strong>⚠️ ohne Netzteil</strong> (65-W-USB-C-Ladegerät nötig)</li>
     </ul>
     <div class="verdict-box">
       <strong>Fazit:</strong> Klarer Favorit für zukunftssicheres Arbeiten zu Hause. Schnell, ergonomisches 16:10-Display, 16 GB RAM und seriöser Fachhändler.
@@ -452,7 +452,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
       <li><strong>System &amp; Lieferumfang:</strong> Windows 11, QWERTZ, Copilot+ PC · <strong>⚠️ ohne Netzteil</strong> (USB-C-Netzteil erforderlich)</li>
     </ul>
     <div class="verdict-box" style="background: #e0e7ff;">
-      <strong>Fazit:</strong> Modernste &amp; sparsamste Plattform mit KI-NPU (Copilot+ PC). Gegenüber Platz 1 aber ~60 € teurer (+ ggf. ~25 € Netzteil) und schwächer bei Multi-Core.
+      <strong>Fazit:</strong> Modernste &amp; sparsamste Plattform mit KI-NPU (Copilot+ PC). Gegenüber Platz 1 aber ~60 € teurer und schwächer bei Multi-Core (beide ohne Netzteil).
     </div>
     <div>
       <a class="shop-btn" href="https://www.amazon.de/dp/B0GWS2BNKD" target="_blank" rel="noopener noreferrer">Angebot bei Amazon öffnen →</a>
@@ -670,6 +670,7 @@ Gerade in der Preisklasse um 400–600 € entscheidet nicht nur die Datenblatt-
 - **Nur mit Einschränkung:** Das **HP OmniBook 3 16 (Angebot 3)** überzeugt beim 16"-Display, scheitert in der verlinkten Konfiguration (`E40Q3EA#ABD`) aber an **nur 8 GB RAM** — vor dem Kauf unbedingt auf eine 16-GB-Variante achten oder Upgrade einplanen.
 - **Nicht kaufen:** **Angebot 5 (Amazon Celeron N5100)** ist nicht zukunftssicher, **Angebot 2** ist für einen 4-Kerner zu teuer, und **Angebot 4** birgt unnötiges Marketplace-/Volumenlizenz-Risiko.
 - **Tipp für Dokumente (Office):** Lieber ein sauberes Gerät (Angebot 1) kaufen und dazu nach Bedarf **Microsoft 365**, eine reguläre **Office Home 2024**-Einzelplatzlizenz oder kostenlos **LibreOffice** nutzen.
+- **Wichtiger Hinweis zum Ladegerät (EU-Regelung 2026):** Bei **beiden Lenovo IdeaPad Slim 3 (Platz 1 &amp; Platz 2)** liegt **kein Netzteil** im Karton. Falls noch kein passendes USB-C-PD-Netzteil (mind. 65 W, z. B. von Anker, Ugreen oder Lenovo) vorhanden ist, direkt für ca. **20–30 €** mitbestellen!
 :::
 
 ## Interaktiver Laptop-Filter (Eigene Kriterien kombinieren)
