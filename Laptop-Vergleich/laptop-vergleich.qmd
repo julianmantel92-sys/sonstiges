@@ -1,0 +1,534 @@
+---
+title: "Zukunftssicherer Laptop-Vergleich für das Arbeiten zu Hause"
+subtitle: "Faktencheck-geprüfte Übersicht für Dokumente, Homeoffice & Alltag – Fokus auf 16 GB RAM und Windows 11"
+date: last-modified
+date-format: "DD.MM.YYYY"
+lang: de
+
+format:
+  moodle-html:
+    toc: true
+    toc-title: "Inhalt"
+    number-sections: false
+    self-contained: true
+---
+
+```{=html}
+<style>
+  .rating-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.82rem;
+    white-space: nowrap;
+    margin-bottom: 0.35rem;
+  }
+
+  .rating-5 {
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+  }
+
+  .rating-4 {
+    background-color: #e0e7ff;
+    color: #3730a3;
+    border: 1px solid #c7d2fe;
+  }
+
+  .rating-3 {
+    background-color: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+  }
+
+  .rating-2 {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+  }
+
+  .req-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.8rem 0 0.2rem 0;
+  }
+
+  .req-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.28rem 0.75rem;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #3730a3;
+    border: 1px solid #c7d2fe;
+    font-size: 0.84rem;
+    font-weight: 600;
+  }
+
+  .shop-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.45rem;
+    padding: 0.32rem 0.72rem;
+    border-radius: 6px;
+    background-color: #6366f1;
+    color: #ffffff !important;
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+    white-space: nowrap;
+  }
+
+  .shop-btn:hover {
+    background-color: #4f46e5;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+  }
+
+  .shop-btn.winner-btn {
+    background-color: #10b981;
+  }
+
+  .shop-btn.winner-btn:hover {
+    background-color: #059669;
+  }
+
+  .shop-btn.danger-btn {
+    background-color: #dc2626;
+  }
+
+  .shop-btn.danger-btn:hover {
+    background-color: #b91c1c;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    margin: 1.25rem 0 1.75rem 0;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+  }
+
+  .cmp-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.91rem;
+    margin: 0;
+  }
+
+  .cmp-table thead th {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: left;
+    padding: 0.85rem 1rem;
+    font-weight: 600;
+  }
+
+  .cmp-table tbody td {
+    padding: 0.9rem 1rem;
+    vertical-align: top;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .cmp-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .cmp-table tbody tr.row-winner {
+    background-color: #ecfdf5;
+  }
+
+  .cmp-table tbody tr.row-warn {
+    background-color: #fffbeb;
+  }
+
+  .cmp-table tbody tr.row-danger {
+    background-color: #fef2f2;
+  }
+
+  .cmp-table tbody tr:not(.row-winner):not(.row-warn):not(.row-danger):hover {
+    background-color: #f8fafc;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.2rem;
+  }
+
+  .laptop-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid #6366f1;
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .laptop-card.winner {
+    border-top-color: #10b981;
+    background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 35%);
+  }
+
+  .laptop-card.warn {
+    border-top-color: #f59e0b;
+    background: linear-gradient(180deg, #fffbeb 0%, #ffffff 35%);
+  }
+
+  .laptop-card.danger {
+    border-top-color: #ef4444;
+    background: linear-gradient(180deg, #fef2f2 0%, #ffffff 35%);
+  }
+
+  .laptop-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 0.65rem;
+  }
+
+  .laptop-card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #1e293b;
+  }
+
+  .laptop-sub {
+    margin: 0.15rem 0 0 0;
+    font-size: 0.84rem;
+    color: #64748b;
+  }
+
+  .spec-list {
+    margin: 0.15rem 0 0.4rem 0;
+    padding-left: 1.15rem;
+    font-size: 0.9rem;
+  }
+
+  .spec-list li {
+    margin-bottom: 0.25rem;
+  }
+
+  .verdict-box {
+    margin-top: auto;
+    padding: 0.75rem 0.9rem;
+    border-radius: 8px;
+    background: #f8fafc;
+    font-size: 0.88rem;
+  }
+
+  .laptop-card.winner .verdict-box { background: #dcfce7; }
+  .laptop-card.warn .verdict-box { background: #fef3c7; }
+  .laptop-card.danger .verdict-box { background: #fee2e2; }
+</style>
+```
+
+::: {.callout-note}
+## Zielprofil dieses Vergleichs
+
+Gesucht wird ein **zukunftssicheres, zuverlässiges Notebook für das Arbeiten zu Hause** – insbesondere für das komfortable Erstellen und Bearbeiten von Dokumenten (Word, Excel, PDF, E-Mails, Recherche im Browser, Videocalls) mit ausreichend Reserven für die nächsten Jahre.
+
+```{=html}
+<div class="req-pills">
+  <span class="req-pill">✓ Arbeiten zu Hause &amp; Dokumente</span>
+  <span class="req-pill">✓ Mindestens 16 GB RAM</span>
+  <span class="req-pill">✓ Inkl. Windows 11</span>
+  <span class="req-pill">✓ Zukunftssicherer Prozessor</span>
+  <span class="req-pill">✓ Seriöser Händler &amp; klares Display</span>
+</div>
+```
+:::
+
+::: {.callout-tip}
+## Klarer Testsieger (Faktencheck-geprüft): Lenovo IdeaPad Slim 3 (15ARP10) – Cyberport (5/5)
+
+Das **einzige Gerät im Vergleich**, das alle Anforderungen ohne Kompromisse erfüllt: schneller 8-Kern-Prozessor ([AMD Ryzen 7 170]{.law-tooltip data-text="8 Kerne / 16 Threads bis 4,75 GHz (Zen 3+ / Rembrandt-Refresh, technisch baugleich zum bewährten Ryzen 7 7735HS) inkl. starker Radeon 680M Grafik."}), **16 GB DDR5-RAM**, 512 GB NVMe-SSD, **Windows 11 Home**, ein angenehmes [15,3-Zoll-16:10-IPS-Display]{.law-tooltip data-text="WUXGA (1920 × 1200 Pixel, matt): Bietet rund 11 % mehr vertikale Höhe als klassisches 16:9 Full-HD – ideal für Word-Dokumente, Tabellen und parallele Fenster."} sowie moderne Anschlüsse (Wi-Fi 7, USB-C mit PowerDelivery & DisplayPort, HDMI, SD-Kartenleser, Webcam-Abdeckung) – direkt vom Fachhändler **Cyberport** (ca. **599 €**).
+
+<a class="shop-btn winner-btn" href="https://www.cyberport.de/notebook-und-tablet/notebooks/lenovo/pdp/1c31-483/lenovo-ideapad-slim-3-15arp10-15-3-zoll-laptop-amd-ryzen-7-170-16-gb-ram-512-gb-ssd-windows-11-home-cosmic-blue.html" target="_blank" rel="noopener noreferrer">Direkt zum Cyberport-Angebot →</a>
+:::
+
+## Vergleichstabelle mit Direktlinks (Faktencheck-verifiziert)
+
+Alle fünf Angebote wurden gegen Herstellerdatenblätter und Händlerangaben geprüft und lassen sich mit **einem Klick** direkt öffnen:
+
+```{=html}
+<div class="table-wrap">
+  <table class="cmp-table">
+    <thead>
+      <tr>
+        <th style="width: 24%;">Angebot &amp; Direktlink</th>
+        <th style="width: 19%;">Prozessor &amp; Tempo</th>
+        <th style="width: 25%;">RAM, Speicher, Display &amp; OS</th>
+        <th style="width: 32%;">Faktencheck-Bewertung für Homeoffice</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row-winner">
+        <td>
+          <strong>1. Lenovo IdeaPad Slim 3 (15ARP10)</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">Cyberport (Fachhändler) · ca. 599 €</span><br>
+          <a class="shop-btn winner-btn" href="https://www.cyberport.de/notebook-und-tablet/notebooks/lenovo/pdp/1c31-483/lenovo-ideapad-slim-3-15arp10-15-3-zoll-laptop-amd-ryzen-7-170-16-gb-ram-512-gb-ssd-windows-11-home-cosmic-blue.html" target="_blank" rel="noopener noreferrer">Zu Cyberport →</a>
+        </td>
+        <td><strong>AMD Ryzen 7 170</strong><br><span style="color:#065f46; font-size:0.84rem;">8 Kerne / 16 Threads, bis 4,75 GHz (sehr schnell)</span></td>
+        <td><strong>16 GB DDR5</strong> (verlötet), 512 GB NVMe SSD, 15,3" WUXGA IPS (1920×1200, 16:10, matt), Wi-Fi 7, <strong>Win 11 Home</strong></td>
+        <td>
+          <span class="rating-badge rating-5">★ 5/5 – Klarer Testsieger</span><br>
+          Erfüllt alle Anforderungen optimal: sehr flotte 8-Kern-CPU, 16 GB RAM, 16:10-IPS-Display (mehr Zeilen in Dokumenten) &amp; seriöser Direktkauf. <em>Hinweis:</em> RAM nicht aufrüstbar, Tastatur meist unbeleuchtet.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>2. Lenovo 15,6" mit Ryzen 5 7520U</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">MediaMarkt Marketplace: cybernerds · 549 €</span><br>
+          <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_lenovo-or-156-or-ryzen-5-or-8-x-440-ghz-or-notebook-mit-156-zoll-display-amd-ryzentm-57520u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-610m-schwarz-windows-11-home-64-bit-147257816.html" target="_blank" rel="noopener noreferrer">Zu MediaMarkt →</a>
+        </td>
+        <td>AMD Ryzen 5 7520U<br><span style="color:#92400e; font-size:0.84rem;">Nur 4 ältere Zen-2-Kerne (trotz „8× 4,4 GHz“-Titel!)</span></td>
+        <td><strong>16 GB RAM</strong>, 512 GB SSD, 15,6" Full-HD (1920×1080), 720p-Webcam, <strong>Win 11 Home</strong></td>
+        <td>
+          <span class="rating-badge rating-3">3/5 – Zu teuer für diese CPU</span><br>
+          🚩 Irreführende Titelangabe „8 × 4,40 GHz“ für einen 4-Kerner. Deutlich langsamer als Angebot 1 – für nur ~50 € Aufpreis gibt es bei Cyberport viel mehr Leistung und das bessere Display.
+        </td>
+      </tr>
+      <tr class="row-warn">
+        <td>
+          <strong>3. HP OmniBook 3 16 (16-bu0750ngx)</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">HP Store direkt · ~599 € (Sale) / ~999 € UVP</span><br>
+          <a class="shop-btn" href="https://www.hp.com/de-de/shop/products/laptops/hp-omnibook-3-laptop-16-bu0750ngx-e40q3ea-abd" target="_blank" rel="noopener noreferrer">Zum HP Store →</a>
+        </td>
+        <td><strong>Intel Core 5 320</strong><br><span style="color:#475569; font-size:0.84rem;">6 Kerne, x86 (kein Snapdragon ARM!)</span></td>
+        <td><strong style="color:#b91c1c;">Nur 8 GB DDR5 RAM!</strong>, 512 GB PCIe Gen4 SSD, 16" WUXGA IPS (1920×1200, 300 Nits, matt), <strong>Win 11 Home</strong></td>
+        <td>
+          <span class="rating-badge rating-3">3/5 – Nur 8 GB RAM ab Werk</span><br>
+          Tolles, großes 16"-IPS-Display (300 Nits) &amp; direkt vom Hersteller, <strong>verfehlt aber das 16-GB-RAM-Ziel</strong>. Für zukunftssicheres Arbeiten mit Windows 11 nur sinnvoll, wenn man RAM nachrüstet oder die 16-GB-Version wählt.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>4. Acer Exo 15 / Extensa 15 + Office 2024 Pro</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">MediaMarkt Marketplace: Laptopia Shop · 599 €</span><br>
+          <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_acer-exo-15-ms-office-2024-pro-dauerversion-notebook-mit-156-zoll-display-amd-ryzentm-77730u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-onboard-graphics-silber-windows-11-pro-184411065.html" target="_blank" rel="noopener noreferrer">Zu MediaMarkt →</a>
+        </td>
+        <td><strong>AMD Ryzen 7 7730U</strong><br><span style="color:#065f46; font-size:0.84rem;">8 Kerne / 16 Threads, bis 4,5 GHz (sehr schnell)</span></td>
+        <td><strong>16 GB RAM</strong>, 512 GB SSD, 15,6" Full-HD (1920×1080, matt), <strong>Win 11 Pro</strong> + Office 2024 Pro</td>
+        <td>
+          <span class="rating-badge rating-3">3,5/5 – Gute CPU, aber Lizenz-Risiko</span><br>
+          Starke Hardware (basiert auf Acer Extensa 15). 🚩 Verkauf über Drittanbieter (Trustpilot ~3,5/5), geöffnete Verpackung und vorinstallierte <strong>Office-Volumenlizenz</strong> (nicht an eigenes Konto gebunden).
+        </td>
+      </tr>
+      <tr class="row-danger">
+        <td>
+          <strong>5. Lenovo 15,6" Einsteiger-Laptop (Celeron N5100)</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">Amazon Marketplace (z. B. shinobee) · ca. 400–450 €</span><br>
+          <a class="shop-btn danger-btn" href="https://www.amazon.de/dp/B0CXQ5XM3X" target="_blank" rel="noopener noreferrer">Zu Amazon →</a>
+        </td>
+        <td>Intel Celeron N5100<br><span style="color:#991b1b; font-size:0.84rem;">4 sehr schwache Kerne (2021, 6 W)</span></td>
+        <td><strong>16 GB DDR4 RAM</strong>, 512 GB SSD, 15,6" Full-HD (1920×1080, matt), <strong>Win 11 Pro</strong></td>
+        <td>
+          <span class="rating-badge rating-2">2/5 – Nicht zukunftssicher</span><br>
+          🚩 Typische Amazon-Lockfalle: 16 GB RAM &amp; 512 GB SSD klingen gut, aber der lahme Celeron N5100 (3–5× langsamer als Angebot 1 &amp; 4) bremst Windows 11, Browser &amp; Videocalls spürbar aus.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
+## Die 5 Angebote im Detail
+
+```{=html}
+<div class="card-grid">
+
+  <div class="laptop-card winner">
+    <div class="laptop-card-top">
+      <div>
+        <h3>1. Lenovo IdeaPad Slim 3 (15ARP10)</h3>
+        <p class="laptop-sub">Cyberport (Fachhändler) · ca. 599 €</p>
+      </div>
+      <span class="rating-badge rating-5">5/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> AMD Ryzen 7 170 (8 Kerne / 16 Threads, bis 4,75 GHz)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB DDR5-4800 (fest verlötet), 512 GB NVMe SSD</li>
+      <li><strong>Display:</strong> 15,3" WUXGA IPS (1920×1200, 16:10, matt)</li>
+      <li><strong>System &amp; Extras:</strong> Windows 11 Home, Wi-Fi 7, USB-C (PD/DP), HDMI, SD-Slot, Webcam-Shutter, ca. 1,6 kg</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Klarer Favorit für zukunftssicheres Arbeiten zu Hause. Schnell, ergonomisches 16:10-Display, 16 GB RAM und seriöser Fachhändler.
+    </div>
+    <div>
+      <a class="shop-btn winner-btn" href="https://www.cyberport.de/notebook-und-tablet/notebooks/lenovo/pdp/1c31-483/lenovo-ideapad-slim-3-15arp10-15-3-zoll-laptop-amd-ryzen-7-170-16-gb-ram-512-gb-ssd-windows-11-home-cosmic-blue.html" target="_blank" rel="noopener noreferrer">Angebot bei Cyberport öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card">
+    <div class="laptop-card-top">
+      <div>
+        <h3>2. Lenovo 15,6" (Ryzen 5 7520U)</h3>
+        <p class="laptop-sub">MediaMarkt Marketplace (cybernerds) · 549 €</p>
+      </div>
+      <span class="rating-badge rating-3">3/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> AMD Ryzen 5 7520U (4 ältere Zen-2-Kerne / 8 Threads)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, 16:9)</li>
+      <li><strong>System &amp; Hinweis:</strong> Windows 11 Home · irreführende „8 × 4,40 GHz“-Angabe im Shop-Titel</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Schlechtes Preis-Leistungs-Verhältnis für 549 €. Für ~50 € mehr bietet Angebot 1 die doppelte Kernzahl und das bessere Display.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_lenovo-or-156-or-ryzen-5-or-8-x-440-ghz-or-notebook-mit-156-zoll-display-amd-ryzentm-57520u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-610m-schwarz-windows-11-home-64-bit-147257816.html" target="_blank" rel="noopener noreferrer">Angebot bei MediaMarkt öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card warn">
+    <div class="laptop-card-top">
+      <div>
+        <h3>3. HP OmniBook 3 16 (16-bu0750ngx)</h3>
+        <p class="laptop-sub">HP Store direkt · ~599 € (Sale) / ~999 € UVP</p>
+      </div>
+      <span class="rating-badge rating-3">3/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Core 5 320 (6 Kerne, x86 – volle Windows-Kompatibilität)</li>
+      <li><strong>RAM &amp; SSD:</strong> <strong style="color:#b91c1c;">Nur 8 GB DDR5-5600</strong> (1× 8 GB), 512 GB PCIe Gen4 SSD</li>
+      <li><strong>Display:</strong> 16" WUXGA IPS (1920×1200, 16:10, 300 Nits, flimmerfrei, matt)</li>
+      <li><strong>System &amp; Extras:</strong> Windows 11 Home, HP Fast Charge, ca. 1,64 kg</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Sehr gutes 16"-Display direkt von HP, aber <strong>nur 8 GB RAM</strong> erfüllen das Zukunftssicherheits-Kriterium ab Werk nicht.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.hp.com/de-de/shop/products/laptops/hp-omnibook-3-laptop-16-bu0750ngx-e40q3ea-abd" target="_blank" rel="noopener noreferrer">Angebot im HP Store öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card">
+    <div class="laptop-card-top">
+      <div>
+        <h3>4. Acer Exo 15 / Extensa 15 + Office 2024</h3>
+        <p class="laptop-sub">MediaMarkt Marketplace (Laptopia Shop) · 599 €</p>
+      </div>
+      <span class="rating-badge rating-3">3,5/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> AMD Ryzen 7 7730U (8 Kerne / 16 Threads, bis 4,5 GHz)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, matt)</li>
+      <li><strong>Software:</strong> Windows 11 Pro + vorinstalliertes Office 2024 Pro (Volumenlizenz-Risiko)</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Starke Hardware, aber Verkauf über Drittanbieter (Trustpilot ~3,5/5) mit geöffneter Verpackung und fragwürdigem Office-Bundle.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_acer-exo-15-ms-office-2024-pro-dauerversion-notebook-mit-156-zoll-display-amd-ryzentm-77730u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-onboard-graphics-silber-windows-11-pro-184411065.html" target="_blank" rel="noopener noreferrer">Angebot bei MediaMarkt öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card danger">
+    <div class="laptop-card-top">
+      <div>
+        <h3>5. Lenovo 15,6" (Intel Celeron N5100)</h3>
+        <p class="laptop-sub">Amazon Marketplace (z. B. shinobee) · ca. 400–450 €</p>
+      </div>
+      <span class="rating-badge rating-2">2/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Celeron N5100 (4 sehr schwache Kerne, 2021, bis 2,8 GHz)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB DDR4 RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, matt)</li>
+      <li><strong>System:</strong> Windows 11 Pro (Marketplace-Konfiguration)</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Nicht zukunftssicher. Trotz 16 GB RAM &amp; 512 GB SSD ist der Celeron N5100 3–5× langsamer als Angebot 1 &amp; 4.
+    </div>
+    <div>
+      <a class="shop-btn danger-btn" href="https://www.amazon.de/dp/B0CXQ5XM3X" target="_blank" rel="noopener noreferrer">Angebot bei Amazon öffnen →</a>
+    </div>
+  </div>
+
+</div>
+```
+
+## Technik & Kaufkriterien für das Arbeiten zu Hause
+
+::: {.panel-tabset}
+
+### Prozessor & Zukunftssicherheit
+
+- **AMD Ryzen 7 170 (Angebot 1) & Ryzen 7 7730U (Angebot 4):** Beide bieten **8 echte Kerne / 16 Threads** und reichlich Leistungsreserven für die nächsten 5+ Jahre — ideal für flüssiges Multitasking mit Word, Excel, vielen Browser-Tabs, PDF-Bearbeitung und Videocalls.
+- **Intel Core 5 320 (Angebot 3):** Solider **6-Kern-x86-Prozessor** mit voller Windows-Kompatibilität (keine ARM-Einschränkungen), im verlinkten HP-Modell jedoch durch nur 8 GB RAM ausgebremst.
+- **AMD Ryzen 5 7520U (Angebot 2):** Nur **4 ältere Zen-2-Kerne** — für 549 € zu schwach und im Shop-Titel irreführend als „8 × 4,40 GHz“ beworben.
+- **Intel Celeron N5100 (Angebot 5 – Amazon):** Sehr schwacher [Einsteiger-Chip von 2021]{.law-tooltip data-text="Intel Jasper Lake (6 Watt TDP): Ursprünglich für einfache Schüler-Notebooks gedacht. Unter Windows 11 mit mehreren Browser-Tabs, Updates oder Videocalls kommt der Prozessor schnell an seine Grenzen."} — keine sinnvolle Basis für ein langlebiges Homeoffice-Gerät.
+
+### Arbeitsspeicher (16 GB) & Windows 11
+
+- **Warum 16 GB RAM Pflicht sind:** Windows 11 allein belegt im Leerlauf oft 4–5 GB RAM. Sobald ein Browser mit 10–15 Tabs, Word/Excel, PDF-Viewer und ein Videocall laufen, sind **8 GB RAM voll** — das System lagert auf die SSD aus und wird spürbar träge.
+- **Erfüllt das 16-GB-Kriterium:** Angebote **1, 2, 4 und 5** liefern 16 GB ab Werk.
+- **Wichtiger Faktencheck zu Angebot 3 (HP):** Das verlinkte Modell `16-bu0750ngx` (`E40Q3EA#ABD`) besitzt ab Werk **nur 8 GB DDR5-RAM (`1 × 8 GB`)**. Wer das 16-Zoll-HP möchte, sollte entweder direkt eine 16-GB-Variante wählen oder einen zweiten 8-GB-Riegel nachrüsten.
+- **Windows 11 Home vs. Pro:** Für das Arbeiten zu Hause und Erstellen von Dokumenten bietet **Windows 11 Home** alles Nötige. Ein vorinstalliertes „Win 11 Pro + Office Pro“-Paket vom Marketplace-Händler ist kein Qualitätsmerkmal, sondern oft ein Hinweis auf geöffnete Ware mit Volumenlizenz.
+
+### Display & Ergonomie beim Schreiben
+
+- **16:10-Format (Angebot 1 mit 15,3" & Angebot 3 mit 16"):** Durch die höhere Auflösung ([1920 × 1200 Pixel]{.law-tooltip data-text="WUXGA im 16:10-Seitenverhältnis: Zeigt vertikal rund 11 % mehr Inhalt als 16:9 Full-HD – deutlich weniger Scrollen in Word-Dokumenten, Tabellen und E-Mails."}) passen spürbar mehr Textzeilen auf den Bildschirm.
+- **IPS-Panel & entspiegelt:** Sowohl Angebot 1 als auch Angebot 3 bieten matte IPS-Panels mit stabilen Blickwinkeln — wichtig für entspanntes, ermüdungsfreies Arbeiten am Schreibtisch.
+- **16:9 Full-HD (Angebote 2, 4 und 5):** Klassisches Standardformat (1920 × 1080) mit weniger vertikaler Arbeitsfläche.
+
+:::
+
+## Fachhändler vs. Amazon- & Marketplace-Fallen
+
+::: {.callout-important}
+## Direktvergleich: Autorisierter Fachhändler (Nr. 1 & 3) vs. Marketplace-Drittanbieter (Nr. 2, 4 & 5)
+
+Gerade in der Preisklasse um 400–600 € entscheidet nicht nur die Datenblatt-Zeile, sondern auch **wer** das Gerät liefert:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-top: 1.1rem;"}
+
+::: {style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #10b981; border-radius: 8px; padding: 1.2rem; box-shadow: 0 2px 6px rgba(0,0,0,0.04);"}
+<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 0.55rem; margin-bottom: 0.8rem;">
+  <strong style="color: #1e293b; font-size: 1rem;">Fachhändler &amp; Hersteller (Cyberport, HP)</strong>
+  <span style="background: #ecfdf5; color: #047857; font-size: 0.74rem; font-weight: 700; padding: 3px 9px; border-radius: 9999px;">EMPFOHLEN</span>
+</div>
+
+- **Ungeöffnete Originalware** mit voller deutscher Gewährleistung und klarer Rückgabeabwicklung.
+- **Verlässliche, nachprüfbare Datenblätter** (Herstellernummer wie `83K700UFGE` bzw. `E40Q3EA#ABD`, echte QWERTZ-Tastatur, IPS-Display).
+- **Sauberes Windows 11** ohne nachträgliche Drittanbieter-Eingriffe oder fragwürdige Software-Bundles.
+:::
+
+::: {style="background: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #f59e0b; border-radius: 8px; padding: 1.2rem; box-shadow: 0 2px 6px rgba(0,0,0,0.04);"}
+<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 0.55rem; margin-bottom: 0.8rem;">
+  <strong style="color: #1e293b; font-size: 1rem;">Typische Amazon- &amp; Marketplace-Fallen</strong>
+  <span style="background: #fef3c7; color: #92400e; font-size: 0.74rem; font-weight: 700; padding: 3px 9px; border-radius: 9999px;">GENAU PRÜFEN</span>
+</div>
+
+- **Schwache CPUs hinter großen RAM-Zahlen:** Wie bei Angebot 5 (Celeron N5100 trotz 16 GB RAM) oder Angebot 2 (irreführendes „8 × 4,40 GHz“ bei einem 4-Kerner).
+- **Geöffnete Umbau-Geräte &amp; graue Lizenzen:** „Gratis Office 2024 Pro“-Bundles (Angebot 4) nutzen häufig [Volumenlizenzen]{.law-tooltip data-text="Firmen-Sammellizenzen, die nicht an das eigene Microsoft-Konto gebunden sind. Bei einer Neuinstallation oder Lizenzprüfung können sie gesperrt werden."}, für die der Karton vorher geöffnet wurde.
+- **Gemischter Support im Garantiefall:** Bei MediaMarkt- oder Amazon-Marketplace-Partnern läuft die Gewährleistung über den jeweiligen Drittanbieter.
+:::
+
+:::
+
+:::
+
+::: {.details}
+#### 💡 Deep Dive: Klare Kaufempfehlung & Checkliste vor der Bestellung
+
+- **Klare Nr. 1 – Beste Gesamtlösung:** Das **Lenovo IdeaPad Slim 3 `15ARP10` bei Cyberport (Angebot 1, ca. 599 €)** vereint als einziges Modell einen schnellen 8-Kern-Prozessor, **16 GB DDR5-RAM**, 512 GB SSD, **Windows 11**, ein 16:10-IPS-Display, Wi-Fi 7 und den Direktkauf beim Fachhändler.
+- **Nur mit Einschränkung:** Das **HP OmniBook 3 16 (Angebot 3)** überzeugt beim 16"-Display, scheitert in der verlinkten Konfiguration (`E40Q3EA#ABD`) aber an **nur 8 GB RAM** — vor dem Kauf unbedingt auf eine 16-GB-Variante achten oder Upgrade einplanen.
+- **Nicht kaufen:** **Angebot 5 (Amazon Celeron N5100)** ist nicht zukunftssicher, **Angebot 2** ist für einen 4-Kerner zu teuer, und **Angebot 4** birgt unnötiges Marketplace-/Volumenlizenz-Risiko.
+- **Tipp für Dokumente (Office):** Lieber ein sauberes Gerät (Angebot 1) kaufen und dazu nach Bedarf **Microsoft 365**, eine reguläre **Office Home 2024**-Einzelplatzlizenz oder kostenlos **LibreOffice** nutzen.
+:::
