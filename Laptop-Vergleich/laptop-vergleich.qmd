@@ -283,7 +283,7 @@ Das **einzige Gerät im Vergleich**, das alle Anforderungen ohne Kompromisse erf
 
 ## Vergleichstabelle mit Direktlinks (Faktencheck-verifiziert)
 
-Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben geprüft und lassen sich mit **einem Klick** direkt öffnen:
+Alle acht Angebote wurden gegen Herstellerdatenblätter und Händlerangaben geprüft und lassen sich mit **einem Klick** direkt öffnen:
 
 ```{=html}
 <div class="table-wrap">
@@ -388,12 +388,25 @@ Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben ge
           Zuverlässige Verarbeitung, angenehme Tastatur &amp; guter Hersteller-Support. Nur klassisches 16:9-Format und fürs gleiche Geld meist etwas weniger CPU-Power als Angebot 1.
         </td>
       </tr>
+      <tr style="background-color: #eef2ff;">
+        <td>
+          <strong>8. Lenovo IdeaPad Slim 3 (Core Ultra 5 322)</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">Amazon (Lenovo-Store) · 659,99 € (Black Friday)</span><br>
+          <a class="shop-btn" href="https://www.amazon.de/dp/B0GWS2BNKD" target="_blank" rel="noopener noreferrer">Zu Amazon →</a>
+        </td>
+        <td><strong>Intel Core Ultra 5 322</strong><br><span style="color:#3730a3; font-size:0.84rem;">6 Kerne / 6 Threads (Panther Lake 2026), sehr leise, 46–50 TOPS NPU (Copilot+ PC)</span></td>
+        <td><strong>16 GB RAM</strong>, 512 GB SSD, 15,3" WUXGA (16:10, <em>Bild zeigt „16"“</em>), QWERTZ, <strong>Win 11</strong>, ⚠️ ohne Netzteil</td>
+        <td>
+          <span class="rating-badge rating-4">★ 4,5/5 – Modernster &amp; leiseste Plattform</span><br>
+          Brandneuer 2026er Copilot+ PC mit Top-Effizienz &amp; 16 GB RAM. <em>Hinweis:</em> 60 € teurer als Angebot 1, weniger Multi-Core-Kerne (6/6 vs. 8/16) und <strong>ohne Netzteil im Lieferumfang</strong> (USB-C-Ladegerät nötig).
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
 ```
 
-## Rangliste: Die 7 Angebote im Detail (Platz 1 bis 7)
+## Rangliste: Die 8 Angebote im Detail (Platz 1 bis 8)
 
 Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeigt, sind die folgenden Detail-Kacheln direkt als **Rangliste vom besten zum schwächsten Angebot** sortiert:
 
@@ -426,7 +439,30 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
   <div class="laptop-card" style="border-top-color: #4f46e5; background: linear-gradient(180deg, #eef2ff 0%, #ffffff 35%);">
     <div class="laptop-card-top">
       <div>
-        <span class="rank-pill rank-2">🥈 Platz 2 · 16"-Tipp</span>
+        <span class="rank-pill rank-2">🥈 Platz 2 · Copilot+ &amp; Leise</span>
+        <h3>Lenovo IdeaPad Slim 3 (Core Ultra 5 322)</h3>
+        <p class="laptop-sub">Amazon (Lenovo-Store) · 659,99 € (Black Friday) · Tabelle Nr. 8</p>
+      </div>
+      <span class="rating-badge rating-4">4,5/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Core Ultra 5 322 (Panther Lake 2026, 6 Kerne / 6 Threads, bis 4,4 GHz, 46–50 TOPS NPU)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,3" WUXGA (1920×1200, 16:10 · Hinweis: Produktbild nennt „16"“, Titel „15,3"“)</li>
+      <li><strong>System &amp; Lieferumfang:</strong> Windows 11, QWERTZ, Copilot+ PC · <strong>⚠️ ohne Netzteil</strong> (USB-C-Netzteil erforderlich)</li>
+    </ul>
+    <div class="verdict-box" style="background: #e0e7ff;">
+      <strong>Fazit:</strong> Modernste &amp; sparsamste Plattform mit KI-NPU (Copilot+ PC). Gegenüber Platz 1 aber ~60 € teurer (+ ggf. ~25 € Netzteil) und schwächer bei Multi-Core.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.amazon.de/dp/B0GWS2BNKD" target="_blank" rel="noopener noreferrer">Angebot bei Amazon öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card">
+    <div class="laptop-card-top">
+      <div>
+        <span class="rank-pill rank-3">🥉 Platz 3 · 16"-Tipp</span>
         <h3>ASUS Vivobook 16 (16 GB + Win 11)</h3>
         <p class="laptop-sub">Fachhandel (Cyberport / NBB) · ca. 580–700 € · Tabelle Nr. 6</p>
       </div>
@@ -438,7 +474,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
       <li><strong>Display:</strong> 16" WUXGA IPS (1920×1200, 16:10, matt)</li>
       <li><strong>System &amp; Hinweis:</strong> Windows 11 Home (beim Kauf FreeDOS-Varianten ausschließen!)</li>
     </ul>
-    <div class="verdict-box" style="background: #e0e7ff;">
+    <div class="verdict-box">
       <strong>Fazit:</strong> Beste Alternative zum Lenovo, wenn ein größeres 16"-Display für Dokumente am Schreibtisch oberste Priorität hat.
     </div>
     <div>
@@ -449,7 +485,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
   <div class="laptop-card">
     <div class="laptop-card-top">
       <div>
-        <span class="rank-pill rank-3">🥉 Platz 3 · Klassiker</span>
+        <span class="rank-pill">Platz 4 · Klassiker</span>
         <h3>Dell Inspiron 15 (3530 / 3535)</h3>
         <p class="laptop-sub">Dell Store / Fachhandel · ca. 600–700 € · Tabelle Nr. 7</p>
       </div>
@@ -472,7 +508,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
   <div class="laptop-card">
     <div class="laptop-card-top">
       <div>
-        <span class="rank-pill">Platz 4</span>
+        <span class="rank-pill">Platz 5</span>
         <h3>Acer Exo 15 / Extensa 15 + Office 2024</h3>
         <p class="laptop-sub">MediaMarkt Marketplace (Laptopia Shop) · 599 € · Tabelle Nr. 4</p>
       </div>
@@ -495,7 +531,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
   <div class="laptop-card warn">
     <div class="laptop-card-top">
       <div>
-        <span class="rank-pill">Platz 5</span>
+        <span class="rank-pill">Platz 6</span>
         <h3>HP OmniBook 3 16 (16-bu0750ngx)</h3>
         <p class="laptop-sub">HP Store direkt · ~599 € (Sale) / ~999 € UVP · Tabelle Nr. 3</p>
       </div>
@@ -518,7 +554,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
   <div class="laptop-card">
     <div class="laptop-card-top">
       <div>
-        <span class="rank-pill">Platz 6</span>
+        <span class="rank-pill">Platz 7</span>
         <h3>Lenovo 15,6" (Ryzen 5 7520U)</h3>
         <p class="laptop-sub">MediaMarkt Marketplace (cybernerds) · 549 € · Tabelle Nr. 2</p>
       </div>
@@ -541,7 +577,7 @@ Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeig
   <div class="laptop-card danger">
     <div class="laptop-card-top">
       <div>
-        <span class="rank-pill" style="background:#fee2e2; color:#991b1b;">Platz 7 · Schlusslicht</span>
+        <span class="rank-pill" style="background:#fee2e2; color:#991b1b;">Platz 8 · Schlusslicht</span>
         <h3>Lenovo 15,6" (Intel Celeron N5100)</h3>
         <p class="laptop-sub">Amazon Marketplace (z. B. shinobee) · ca. 400–450 € · Tabelle Nr. 5</p>
       </div>
