@@ -17,12 +17,12 @@ format:
 <style>
   .rating-badge {
     display: inline-block;
-    padding: 0.2rem 0.6rem;
+    padding: 0.14rem 0.5rem;
     border-radius: 999px;
     font-weight: 700;
-    font-size: 0.82rem;
+    font-size: 0.74rem;
     white-space: nowrap;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.25rem;
   }
 
   .rating-5 {
@@ -49,6 +49,23 @@ format:
     border: 1px solid #fecaca;
   }
 
+  .rank-pill {
+    display: inline-block;
+    padding: 0.16rem 0.55rem;
+    border-radius: 6px;
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 0.35rem;
+    background: #e2e8f0;
+    color: #334155;
+  }
+
+  .rank-1 { background: #fef3c7; color: #92400e; border: 1px solid #fcd34d; }
+  .rank-2 { background: #e0e7ff; color: #3730a3; border: 1px solid #c7d2fe; }
+  .rank-3 { background: #ffedd5; color: #9a3412; border: 1px solid #fdba74; }
+
   .req-pills {
     display: flex;
     flex-wrap: wrap;
@@ -72,13 +89,13 @@ format:
   .shop-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
-    margin-top: 0.45rem;
-    padding: 0.32rem 0.72rem;
+    gap: 0.3rem;
+    margin-top: 0.35rem;
+    padding: 0.25rem 0.6rem;
     border-radius: 6px;
     background-color: #6366f1;
     color: #ffffff !important;
-    font-size: 0.82rem;
+    font-size: 0.75rem;
     font-weight: 600;
     text-decoration: none !important;
     transition: background-color 0.15s ease, transform 0.1s ease;
@@ -118,7 +135,8 @@ format:
   .cmp-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.91rem;
+    font-size: 0.8rem;
+    line-height: 1.42;
     margin: 0;
   }
 
@@ -126,12 +144,13 @@ format:
     background-color: #1e293b;
     color: #ffffff;
     text-align: left;
-    padding: 0.85rem 1rem;
+    padding: 0.6rem 0.75rem;
     font-weight: 600;
+    font-size: 0.8rem;
   }
 
   .cmp-table tbody td {
-    padding: 0.9rem 1rem;
+    padding: 0.6rem 0.75rem;
     vertical-align: top;
     border-bottom: 1px solid #e2e8f0;
   }
@@ -158,21 +177,21 @@ format:
 
   .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    gap: 1.25rem;
-    margin-top: 1.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.9rem;
+    margin-top: 1rem;
   }
 
   .laptop-card {
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-top: 4px solid #6366f1;
-    border-radius: 10px;
-    padding: 1.25rem;
+    border-radius: 9px;
+    padding: 0.9rem 1rem;
     box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.45rem;
   }
 
   .laptop-card.winner {
@@ -194,39 +213,42 @@ format:
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 0.75rem;
+    gap: 0.5rem;
     border-bottom: 1px solid #f1f5f9;
-    padding-bottom: 0.65rem;
+    padding-bottom: 0.45rem;
   }
 
   .laptop-card h3 {
     margin: 0;
-    font-size: 1.05rem;
+    font-size: 0.94rem;
+    line-height: 1.3;
     color: #1e293b;
   }
 
   .laptop-sub {
-    margin: 0.15rem 0 0 0;
-    font-size: 0.84rem;
+    margin: 0.1rem 0 0 0;
+    font-size: 0.76rem;
     color: #64748b;
   }
 
   .spec-list {
-    margin: 0.15rem 0 0.4rem 0;
-    padding-left: 1.15rem;
-    font-size: 0.9rem;
+    margin: 0.1rem 0 0.3rem 0;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
   }
 
   .spec-list li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.18rem;
   }
 
   .verdict-box {
     margin-top: auto;
-    padding: 0.75rem 0.9rem;
-    border-radius: 8px;
+    padding: 0.55rem 0.7rem;
+    border-radius: 7px;
     background: #f8fafc;
-    font-size: 0.88rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
   }
 
   .laptop-card.winner .verdict-box { background: #dcfce7; }
@@ -371,7 +393,9 @@ Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben ge
 </div>
 ```
 
-## Die 7 Angebote im Detail
+## Rangliste: Die 7 Angebote im Detail (Platz 1 bis 7)
+
+Während die Tabelle oben die Angebote in ihrer ursprünglichen Reihenfolge zeigt, sind die folgenden Detail-Kacheln direkt als **Rangliste vom besten zum schwächsten Angebot** sortiert:
 
 ```{=html}
 <div class="card-grid">
@@ -379,8 +403,9 @@ Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben ge
   <div class="laptop-card winner">
     <div class="laptop-card-top">
       <div>
-        <h3>1. Lenovo IdeaPad Slim 3 (15ARP10)</h3>
-        <p class="laptop-sub">Cyberport (Fachhändler) · ca. 599 €</p>
+        <span class="rank-pill rank-1">🥇 Platz 1 · Testsieger</span>
+        <h3>Lenovo IdeaPad Slim 3 (15ARP10)</h3>
+        <p class="laptop-sub">Cyberport (Fachhändler) · ca. 599 € · Tabelle Nr. 1</p>
       </div>
       <span class="rating-badge rating-5">5/5</span>
     </div>
@@ -398,99 +423,12 @@ Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben ge
     </div>
   </div>
 
-  <div class="laptop-card">
-    <div class="laptop-card-top">
-      <div>
-        <h3>2. Lenovo 15,6" (Ryzen 5 7520U)</h3>
-        <p class="laptop-sub">MediaMarkt Marketplace (cybernerds) · 549 €</p>
-      </div>
-      <span class="rating-badge rating-3">3/5</span>
-    </div>
-    <ul class="spec-list">
-      <li><strong>Prozessor:</strong> AMD Ryzen 5 7520U (4 ältere Zen-2-Kerne / 8 Threads)</li>
-      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
-      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, 16:9)</li>
-      <li><strong>System &amp; Hinweis:</strong> Windows 11 Home · irreführende „8 × 4,40 GHz“-Angabe im Shop-Titel</li>
-    </ul>
-    <div class="verdict-box">
-      <strong>Fazit:</strong> Schlechtes Preis-Leistungs-Verhältnis für 549 €. Für ~50 € mehr bietet Angebot 1 die doppelte Kernzahl und das bessere Display.
-    </div>
-    <div>
-      <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_lenovo-or-156-or-ryzen-5-or-8-x-440-ghz-or-notebook-mit-156-zoll-display-amd-ryzentm-57520u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-610m-schwarz-windows-11-home-64-bit-147257816.html" target="_blank" rel="noopener noreferrer">Angebot bei MediaMarkt öffnen →</a>
-    </div>
-  </div>
-
-  <div class="laptop-card warn">
-    <div class="laptop-card-top">
-      <div>
-        <h3>3. HP OmniBook 3 16 (16-bu0750ngx)</h3>
-        <p class="laptop-sub">HP Store direkt · ~599 € (Sale) / ~999 € UVP</p>
-      </div>
-      <span class="rating-badge rating-3">3/5</span>
-    </div>
-    <ul class="spec-list">
-      <li><strong>Prozessor:</strong> Intel Core 5 320 (6 Kerne, x86 – volle Windows-Kompatibilität)</li>
-      <li><strong>RAM &amp; SSD:</strong> <strong style="color:#b91c1c;">Nur 8 GB DDR5-5600</strong> (1× 8 GB), 512 GB PCIe Gen4 SSD</li>
-      <li><strong>Display:</strong> 16" WUXGA IPS (1920×1200, 16:10, 300 Nits, flimmerfrei, matt)</li>
-      <li><strong>System &amp; Extras:</strong> Windows 11 Home, HP Fast Charge, ca. 1,64 kg</li>
-    </ul>
-    <div class="verdict-box">
-      <strong>Fazit:</strong> Sehr gutes 16"-Display direkt von HP, aber <strong>nur 8 GB RAM</strong> erfüllen das Zukunftssicherheits-Kriterium ab Werk nicht.
-    </div>
-    <div>
-      <a class="shop-btn" href="https://www.hp.com/de-de/shop/products/laptops/hp-omnibook-3-laptop-16-bu0750ngx-e40q3ea-abd" target="_blank" rel="noopener noreferrer">Angebot im HP Store öffnen →</a>
-    </div>
-  </div>
-
-  <div class="laptop-card">
-    <div class="laptop-card-top">
-      <div>
-        <h3>4. Acer Exo 15 / Extensa 15 + Office 2024</h3>
-        <p class="laptop-sub">MediaMarkt Marketplace (Laptopia Shop) · 599 €</p>
-      </div>
-      <span class="rating-badge rating-3">3,5/5</span>
-    </div>
-    <ul class="spec-list">
-      <li><strong>Prozessor:</strong> AMD Ryzen 7 7730U (8 Kerne / 16 Threads, bis 4,5 GHz)</li>
-      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
-      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, matt)</li>
-      <li><strong>Software:</strong> Windows 11 Pro + vorinstalliertes Office 2024 Pro (Volumenlizenz-Risiko)</li>
-    </ul>
-    <div class="verdict-box">
-      <strong>Fazit:</strong> Starke Hardware, aber Verkauf über Drittanbieter (Trustpilot ~3,5/5) mit geöffneter Verpackung und fragwürdigem Office-Bundle.
-    </div>
-    <div>
-      <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_acer-exo-15-ms-office-2024-pro-dauerversion-notebook-mit-156-zoll-display-amd-ryzentm-77730u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-onboard-graphics-silber-windows-11-pro-184411065.html" target="_blank" rel="noopener noreferrer">Angebot bei MediaMarkt öffnen →</a>
-    </div>
-  </div>
-
-  <div class="laptop-card danger">
-    <div class="laptop-card-top">
-      <div>
-        <h3>5. Lenovo 15,6" (Intel Celeron N5100)</h3>
-        <p class="laptop-sub">Amazon Marketplace (z. B. shinobee) · ca. 400–450 €</p>
-      </div>
-      <span class="rating-badge rating-2">2/5</span>
-    </div>
-    <ul class="spec-list">
-      <li><strong>Prozessor:</strong> Intel Celeron N5100 (4 sehr schwache Kerne, 2021, bis 2,8 GHz)</li>
-      <li><strong>RAM &amp; SSD:</strong> 16 GB DDR4 RAM, 512 GB SSD</li>
-      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, matt)</li>
-      <li><strong>System:</strong> Windows 11 Pro (Marketplace-Konfiguration)</li>
-    </ul>
-    <div class="verdict-box">
-      <strong>Fazit:</strong> Nicht zukunftssicher. Trotz 16 GB RAM &amp; 512 GB SSD ist der Celeron N5100 3–5× langsamer als Angebot 1 &amp; 4.
-    </div>
-    <div>
-      <a class="shop-btn danger-btn" href="https://www.amazon.de/dp/B0CXQ5XM3X" target="_blank" rel="noopener noreferrer">Angebot bei Amazon öffnen →</a>
-    </div>
-  </div>
-
   <div class="laptop-card" style="border-top-color: #4f46e5; background: linear-gradient(180deg, #eef2ff 0%, #ffffff 35%);">
     <div class="laptop-card-top">
       <div>
-        <h3>6. ASUS Vivobook 16 (16 GB + Win 11)</h3>
-        <p class="laptop-sub">Fachhandel (Cyberport / NBB) · ca. 580–700 €</p>
+        <span class="rank-pill rank-2">🥈 Platz 2 · 16"-Tipp</span>
+        <h3>ASUS Vivobook 16 (16 GB + Win 11)</h3>
+        <p class="laptop-sub">Fachhandel (Cyberport / NBB) · ca. 580–700 € · Tabelle Nr. 6</p>
       </div>
       <span class="rating-badge rating-4">4,5/5</span>
     </div>
@@ -511,8 +449,9 @@ Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben ge
   <div class="laptop-card">
     <div class="laptop-card-top">
       <div>
-        <h3>7. Dell Inspiron 15 (3530 / 3535)</h3>
-        <p class="laptop-sub">Dell Store / Fachhandel · ca. 600–700 €</p>
+        <span class="rank-pill rank-3">🥉 Platz 3 · Klassiker</span>
+        <h3>Dell Inspiron 15 (3530 / 3535)</h3>
+        <p class="laptop-sub">Dell Store / Fachhandel · ca. 600–700 € · Tabelle Nr. 7</p>
       </div>
       <span class="rating-badge rating-4">4/5</span>
     </div>
@@ -523,10 +462,102 @@ Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben ge
       <li><strong>System &amp; Extras:</strong> Windows 11 Home/Pro, Nummernblock, guter Dell-Support</li>
     </ul>
     <div class="verdict-box">
-      <strong>Fazit:</strong> Solider Klassiker für das Homeoffice – beim Gesamtpaket aus CPU-Tempo und 16:10-Display bleibt Angebot 1 aber leicht vorn.
+      <strong>Fazit:</strong> Solider Klassiker für das Homeoffice – beim Gesamtpaket aus CPU-Tempo und 16:10-Display bleibt Platz 1 aber leicht vorn.
     </div>
     <div>
       <a class="shop-btn" href="https://www.idealo.de/preisvergleich/ProductCategory/3751.html?q=Dell+Inspiron+15+16GB+512GB+Windows+11" target="_blank" rel="noopener noreferrer">Inspiron 15 Angebote prüfen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card">
+    <div class="laptop-card-top">
+      <div>
+        <span class="rank-pill">Platz 4</span>
+        <h3>Acer Exo 15 / Extensa 15 + Office 2024</h3>
+        <p class="laptop-sub">MediaMarkt Marketplace (Laptopia Shop) · 599 € · Tabelle Nr. 4</p>
+      </div>
+      <span class="rating-badge rating-3">3,5/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> AMD Ryzen 7 7730U (8 Kerne / 16 Threads, bis 4,5 GHz)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, matt)</li>
+      <li><strong>Software:</strong> Windows 11 Pro + vorinstalliertes Office 2024 Pro (Volumenlizenz-Risiko)</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Starke Hardware, aber Verkauf über Drittanbieter (Trustpilot ~3,5/5) mit geöffneter Verpackung und fragwürdigem Office-Bundle.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_acer-exo-15-ms-office-2024-pro-dauerversion-notebook-mit-156-zoll-display-amd-ryzentm-77730u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-onboard-graphics-silber-windows-11-pro-184411065.html" target="_blank" rel="noopener noreferrer">Angebot bei MediaMarkt öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card warn">
+    <div class="laptop-card-top">
+      <div>
+        <span class="rank-pill">Platz 5</span>
+        <h3>HP OmniBook 3 16 (16-bu0750ngx)</h3>
+        <p class="laptop-sub">HP Store direkt · ~599 € (Sale) / ~999 € UVP · Tabelle Nr. 3</p>
+      </div>
+      <span class="rating-badge rating-3">3/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Core 5 320 (6 Kerne, x86 – volle Windows-Kompatibilität)</li>
+      <li><strong>RAM &amp; SSD:</strong> <strong style="color:#b91c1c;">Nur 8 GB DDR5-5600</strong> (1× 8 GB), 512 GB PCIe Gen4 SSD</li>
+      <li><strong>Display:</strong> 16" WUXGA IPS (1920×1200, 16:10, 300 Nits, flimmerfrei, matt)</li>
+      <li><strong>System &amp; Extras:</strong> Windows 11 Home, HP Fast Charge, ca. 1,64 kg</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Sehr gutes 16"-Display direkt von HP, aber <strong>nur 8 GB RAM</strong> erfüllen das Zukunftssicherheits-Kriterium ab Werk nicht.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.hp.com/de-de/shop/products/laptops/hp-omnibook-3-laptop-16-bu0750ngx-e40q3ea-abd" target="_blank" rel="noopener noreferrer">Angebot im HP Store öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card">
+    <div class="laptop-card-top">
+      <div>
+        <span class="rank-pill">Platz 6</span>
+        <h3>Lenovo 15,6" (Ryzen 5 7520U)</h3>
+        <p class="laptop-sub">MediaMarkt Marketplace (cybernerds) · 549 € · Tabelle Nr. 2</p>
+      </div>
+      <span class="rating-badge rating-3">3/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> AMD Ryzen 5 7520U (4 ältere Zen-2-Kerne / 8 Threads)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, 16:9)</li>
+      <li><strong>System &amp; Hinweis:</strong> Windows 11 Home · irreführende „8 × 4,40 GHz“-Angabe im Shop-Titel</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Schlechtes Preis-Leistungs-Verhältnis für 549 €. Für ~50 € mehr bietet Platz 1 die doppelte Kernzahl und das bessere Display.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.mediamarkt.de/de/product/_lenovo-or-156-or-ryzen-5-or-8-x-440-ghz-or-notebook-mit-156-zoll-display-amd-ryzentm-57520u-prozessor-16-gb-ram-512-gb-ssd-amd-radeontm-610m-schwarz-windows-11-home-64-bit-147257816.html" target="_blank" rel="noopener noreferrer">Angebot bei MediaMarkt öffnen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card danger">
+    <div class="laptop-card-top">
+      <div>
+        <span class="rank-pill" style="background:#fee2e2; color:#991b1b;">Platz 7 · Schlusslicht</span>
+        <h3>Lenovo 15,6" (Intel Celeron N5100)</h3>
+        <p class="laptop-sub">Amazon Marketplace (z. B. shinobee) · ca. 400–450 € · Tabelle Nr. 5</p>
+      </div>
+      <span class="rating-badge rating-2">2/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Celeron N5100 (4 sehr schwache Kerne, 2021, bis 2,8 GHz)</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB DDR4 RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD (1920×1080, matt)</li>
+      <li><strong>System:</strong> Windows 11 Pro (Marketplace-Konfiguration)</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Nicht zukunftssicher. Trotz 16 GB RAM &amp; 512 GB SSD ist der Celeron N5100 3–5× langsamer als Platz 1 &amp; 4.
+    </div>
+    <div>
+      <a class="shop-btn danger-btn" href="https://www.amazon.de/dp/B0CXQ5XM3X" target="_blank" rel="noopener noreferrer">Angebot bei Amazon öffnen →</a>
     </div>
   </div>
 
@@ -604,3 +635,21 @@ Gerade in der Preisklasse um 400–600 € entscheidet nicht nur die Datenblatt-
 - **Nicht kaufen:** **Angebot 5 (Amazon Celeron N5100)** ist nicht zukunftssicher, **Angebot 2** ist für einen 4-Kerner zu teuer, und **Angebot 4** birgt unnötiges Marketplace-/Volumenlizenz-Risiko.
 - **Tipp für Dokumente (Office):** Lieber ein sauberes Gerät (Angebot 1) kaufen und dazu nach Bedarf **Microsoft 365**, eine reguläre **Office Home 2024**-Einzelplatzlizenz oder kostenlos **LibreOffice** nutzen.
 :::
+
+## Interaktiver Laptop-Filter (Eigene Kriterien kombinieren)
+
+Wähle unten beliebig viele Anforderungen aus und passe das Budget an – mit jedem zusätzlichen Kriterium fallen unpassende Modelle sofort weg, inklusive Angabe des genauen Ausscheidungsgrundes:
+
+::: {.widget}
+<iframe src="widgets/laptop-filter-widget.html" width="100%" height="680" style="border: none; border-radius: 12px; width: 100%; overflow: hidden;" loading="lazy" title="Interaktiver Laptop-Filter"></iframe>
+:::
+
+
+## Interaktiver Laptop-Filter (Eigene Kriterien kombinieren)
+
+Wähle unten beliebig viele Anforderungen aus und passe das Budget an – mit jedem zusätzlichen Kriterium fallen unpassende Modelle sofort weg, inklusive Angabe des genauen Ausscheidungsgrundes:
+
+::: {.widget}
+<iframe src="widgets/laptop-filter-widget.html" width="100%" height="680" style="border: none; border-radius: 12px; width: 100%; overflow: hidden;" loading="lazy" title="Interaktiver Laptop-Filter"></iframe>
+:::
+
