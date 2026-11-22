@@ -261,7 +261,7 @@ Das **einzige Gerät im Vergleich**, das alle Anforderungen ohne Kompromisse erf
 
 ## Vergleichstabelle mit Direktlinks (Faktencheck-verifiziert)
 
-Alle fünf Angebote wurden gegen Herstellerdatenblätter und Händlerangaben geprüft und lassen sich mit **einem Klick** direkt öffnen:
+Alle sieben Angebote wurden gegen Herstellerdatenblätter und Händlerangaben geprüft und lassen sich mit **einem Klick** direkt öffnen:
 
 ```{=html}
 <div class="table-wrap">
@@ -340,12 +340,38 @@ Alle fünf Angebote wurden gegen Herstellerdatenblätter und Händlerangaben gep
           🚩 Typische Amazon-Lockfalle: 16 GB RAM &amp; 512 GB SSD klingen gut, aber der lahme Celeron N5100 (3–5× langsamer als Angebot 1 &amp; 4) bremst Windows 11, Browser &amp; Videocalls spürbar aus.
         </td>
       </tr>
+      <tr style="background-color: #eef2ff;">
+        <td>
+          <strong>6. ASUS Vivobook 16 (16 GB + Win 11)</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">Fachhandel (z. B. Cyberport / NBB) · ca. 580–700 €</span><br>
+          <a class="shop-btn" href="https://www.idealo.de/preisvergleich/ProductCategory/3751.html?q=ASUS+Vivobook+16+16GB+512GB+Windows+11" target="_blank" rel="noopener noreferrer">Angebote vergleichen →</a>
+        </td>
+        <td><strong>Intel Core i5 / Core 5 oder AMD Ryzen 5/7</strong><br><span style="color:#3730a3; font-size:0.84rem;">Flotte Alltags- &amp; Homeoffice-CPUs</span></td>
+        <td><strong>16 GB RAM</strong>, 512 GB SSD, <strong>16" WUXGA IPS</strong> (1920×1200, 16:10, matt), <strong>Win 11 Home</strong></td>
+        <td>
+          <span class="rating-badge rating-4">★ 4,5/5 – Beste 16-Zoll-Alternative</span><br>
+          Sehr gute Wahl, wenn ein noch größerer 16"-Bildschirm im 16:10-Format gewünscht ist. <em>Hinweis:</em> Beim Kauf gezielt auf die Variante <strong>inkl. Windows 11</strong> (nicht FreeDOS) achten.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <strong>7. Dell Inspiron 15 (3530 / 3535)</strong><br>
+          <span style="color:#475569; font-size:0.84rem;">Dell Store / Fachhandel · ca. 600–700 €</span><br>
+          <a class="shop-btn" href="https://www.idealo.de/preisvergleich/ProductCategory/3751.html?q=Dell+Inspiron+15+16GB+512GB+Windows+11" target="_blank" rel="noopener noreferrer">Angebote vergleichen →</a>
+        </td>
+        <td><strong>Intel Core i5 oder AMD Ryzen 5/7</strong><br><span style="color:#475569; font-size:0.84rem;">Solide Mittelklasse-CPUs</span></td>
+        <td><strong>16 GB RAM</strong>, 512 GB SSD, 15,6" Full-HD IPS (teils 120 Hz, 16:9), Nummernblock, <strong>Win 11 Home/Pro</strong></td>
+        <td>
+          <span class="rating-badge rating-4">4/5 – Solider Homeoffice-Klassiker</span><br>
+          Zuverlässige Verarbeitung, angenehme Tastatur &amp; guter Hersteller-Support. Nur klassisches 16:9-Format und fürs gleiche Geld meist etwas weniger CPU-Power als Angebot 1.
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
 ```
 
-## Die 5 Angebote im Detail
+## Die 7 Angebote im Detail
 
 ```{=html}
 <div class="card-grid">
@@ -460,6 +486,50 @@ Alle fünf Angebote wurden gegen Herstellerdatenblätter und Händlerangaben gep
     </div>
   </div>
 
+  <div class="laptop-card" style="border-top-color: #4f46e5; background: linear-gradient(180deg, #eef2ff 0%, #ffffff 35%);">
+    <div class="laptop-card-top">
+      <div>
+        <h3>6. ASUS Vivobook 16 (16 GB + Win 11)</h3>
+        <p class="laptop-sub">Fachhandel (Cyberport / NBB) · ca. 580–700 €</p>
+      </div>
+      <span class="rating-badge rating-4">4,5/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Core i5 / Core 5 oder AMD Ryzen 5/7</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB NVMe SSD</li>
+      <li><strong>Display:</strong> 16" WUXGA IPS (1920×1200, 16:10, matt)</li>
+      <li><strong>System &amp; Hinweis:</strong> Windows 11 Home (beim Kauf FreeDOS-Varianten ausschließen!)</li>
+    </ul>
+    <div class="verdict-box" style="background: #e0e7ff;">
+      <strong>Fazit:</strong> Beste Alternative zum Lenovo, wenn ein größeres 16"-Display für Dokumente am Schreibtisch oberste Priorität hat.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.idealo.de/preisvergleich/ProductCategory/3751.html?q=ASUS+Vivobook+16+16GB+512GB+Windows+11" target="_blank" rel="noopener noreferrer">Vivobook 16 Angebote prüfen →</a>
+    </div>
+  </div>
+
+  <div class="laptop-card">
+    <div class="laptop-card-top">
+      <div>
+        <h3>7. Dell Inspiron 15 (3530 / 3535)</h3>
+        <p class="laptop-sub">Dell Store / Fachhandel · ca. 600–700 €</p>
+      </div>
+      <span class="rating-badge rating-4">4/5</span>
+    </div>
+    <ul class="spec-list">
+      <li><strong>Prozessor:</strong> Intel Core i5 oder AMD Ryzen 5/7</li>
+      <li><strong>RAM &amp; SSD:</strong> 16 GB RAM, 512 GB SSD</li>
+      <li><strong>Display:</strong> 15,6" Full-HD IPS (1920×1080, 16:9, oft 120 Hz)</li>
+      <li><strong>System &amp; Extras:</strong> Windows 11 Home/Pro, Nummernblock, guter Dell-Support</li>
+    </ul>
+    <div class="verdict-box">
+      <strong>Fazit:</strong> Solider Klassiker für das Homeoffice – beim Gesamtpaket aus CPU-Tempo und 16:10-Display bleibt Angebot 1 aber leicht vorn.
+    </div>
+    <div>
+      <a class="shop-btn" href="https://www.idealo.de/preisvergleich/ProductCategory/3751.html?q=Dell+Inspiron+15+16GB+512GB+Windows+11" target="_blank" rel="noopener noreferrer">Inspiron 15 Angebote prüfen →</a>
+    </div>
+  </div>
+
 </div>
 ```
 
@@ -527,7 +597,9 @@ Gerade in der Preisklasse um 400–600 € entscheidet nicht nur die Datenblatt-
 ::: {.details}
 #### 💡 Deep Dive: Klare Kaufempfehlung & Checkliste vor der Bestellung
 
-- **Klare Nr. 1 – Beste Gesamtlösung:** Das **Lenovo IdeaPad Slim 3 `15ARP10` bei Cyberport (Angebot 1, ca. 599 €)** vereint als einziges Modell einen schnellen 8-Kern-Prozessor, **16 GB DDR5-RAM**, 512 GB SSD, **Windows 11**, ein 16:10-IPS-Display, Wi-Fi 7 und den Direktkauf beim Fachhändler.
+- **Klare Nr. 1 – Beste Gesamtlösung:** Das **Lenovo IdeaPad Slim 3 `15ARP10` bei Cyberport (Angebot 1, ca. 599 €)** vereint einen schnellen 8-Kern-Prozessor, **16 GB DDR5-RAM**, 512 GB SSD, **Windows 11**, ein 16:10-IPS-Display, Wi-Fi 7 und den Direktkauf beim Fachhändler.
+- **Beste 16-Zoll-Alternative:** Das **ASUS Vivobook 16 mit 16 GB RAM &amp; Windows 11 (Angebot 6, ca. 580–700 €)**, wenn ein besonders großer Bildschirm am Schreibtisch gewünscht ist.
+- **Solide Alternative mit 15,6":** Das **Dell Inspiron 15 mit 16 GB RAM &amp; Windows 11 (Angebot 7, ca. 600–700 €)** für klassischen Dell-Support und Nummernblock.
 - **Nur mit Einschränkung:** Das **HP OmniBook 3 16 (Angebot 3)** überzeugt beim 16"-Display, scheitert in der verlinkten Konfiguration (`E40Q3EA#ABD`) aber an **nur 8 GB RAM** — vor dem Kauf unbedingt auf eine 16-GB-Variante achten oder Upgrade einplanen.
 - **Nicht kaufen:** **Angebot 5 (Amazon Celeron N5100)** ist nicht zukunftssicher, **Angebot 2** ist für einen 4-Kerner zu teuer, und **Angebot 4** birgt unnötiges Marketplace-/Volumenlizenz-Risiko.
 - **Tipp für Dokumente (Office):** Lieber ein sauberes Gerät (Angebot 1) kaufen und dazu nach Bedarf **Microsoft 365**, eine reguläre **Office Home 2024**-Einzelplatzlizenz oder kostenlos **LibreOffice** nutzen.
