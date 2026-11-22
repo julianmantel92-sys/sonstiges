@@ -644,12 +644,3 @@ Wähle unten beliebig viele Anforderungen aus und passe das Budget an – mit je
 <iframe src="widgets/laptop-filter-widget.html" width="100%" height="680" style="border: none; border-radius: 12px; width: 100%; overflow: hidden;" loading="lazy" title="Interaktiver Laptop-Filter"></iframe>
 :::
 
-
-## Interaktiver Laptop-Filter (Eigene Kriterien kombinieren)
-
-Wähle unten beliebig viele Anforderungen aus und passe das Budget an – mit jedem zusätzlichen Kriterium fallen unpassende Modelle sofort weg, inklusive Angabe des genauen Ausscheidungsgrundes:
-
-::: {.widget}
-<iframe src="widgets/laptop-filter-widget.html" width="100%" height="680" style="border: none; border-radius: 12px; width: 100%; overflow: hidden;" loading="lazy" title="Interaktiver Laptop-Filter"></iframe>
-:::
-
